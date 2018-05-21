@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch="ssh://git@github.com/astillero/" />
-    <default revision="master" remote="origin"/>
-    <project path="jekyll" name="jekyll-docker" />
+    <remote name="astillero" fetch="ssh://git@github.com/astillero/"/>
+    <remote name="m4grio" fetch="ssh://git@github.com/m4grio/"/>
+    <default revision="refs/heads/master" remote="astillero"/>
+
+    <project path="astillero" name="astillero" remote="m4grio"/>
+    <project path="jekyll" name="jekyll-docker"/>
 </manifest>
