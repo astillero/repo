@@ -5,5 +5,5 @@
     <default revision="refs/heads/master" remote="astillero"/>
 
     <project path="astillero" name="astillero" remote="m4grio"/>
-    <project path="jekyll" name="jekyll-docker"/>
+    <project path="jekyll" name="jekyll"/>
 </manifest>
